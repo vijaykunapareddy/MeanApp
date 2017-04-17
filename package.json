@@ -1,0 +1,34 @@
+{
+  "name": "meanapp",
+  "version": "1.0.0",
+  "description": "mean authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "vi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-jwt": "*",
+    "passport-local": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
